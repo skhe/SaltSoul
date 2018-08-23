@@ -15,3 +15,5 @@ main = Blueprint('main', __name__)
 
 
 main.add_url_rule('/', 'index', apis.ping)
+
+main.add_url_rule('/professions/', view_func=apis.ProfessionListView.as_view('professions'))

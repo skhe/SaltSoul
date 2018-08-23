@@ -7,6 +7,8 @@ name = "pypi"
 requests-html = "*"
 flask = "*"
 flask-mongoengine = "*"
+marshmallow = "*"
+watchdog = "*"
 
 [dev-packages]
 
